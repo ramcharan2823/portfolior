@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+        body{
+            background-image: url('https://res.cloudinary.com/dat4vmjb5/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1708583330/070A2070_copy-min-modified_1_1_o5qqzn.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+
+        }
+        
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .lnavbar{
+            padding-left: 20px;
+            color: rgb(0, 0, 0);
+            padding-top: 30px;
+        }
+        .rnavbar{
+            padding-right: 30px;
+            padding-top: 30px;
+            color: rgb(0, 0, 0);
+        }
+        .rn{
+            color: white;
+        }
+        .a{
+            padding: 10px;
+            color: rgb(0, 0, 0);
+        }
+        .box{
+            font-family: 'Ubuntu', sans-serif;
+            color: black;
+            padding-left: 20px;
+            margin: 20px;
+            position: relative;
+            left: 350px;
+            top: 40px;
+            width: 700px;
+            height: 310px;
+            padding-top: 30px;
+            
+        }
+        
+        .ab{
+            display: flex;
+            flex-direction: row;
+
+        }
+        .image{
+            height: 400px;
+            position: relative;
+            top: 100px;
+            left: 200px;
+            border-radius: 40px;
+        }
+        .hover01 figure img {
+	    -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+        }
+        .hover01 figure:hover img {
+	        -webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+        }
+        @media only screen and (max-width:414px) {
+            
+        }
+        @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+
+.container{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+}
+.social-icons {
+	padding: 0;
+  list-style: none;
+  margin: 5em;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  font-size: 2em;
+}
+.social-icons i {
+  color: #21D4FD;
+  background: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 0.7em;
+  left: 0.7em;
+  transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: block;
+  background: #000;
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #000;
+  background: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+.credit{
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.social-icons{
+    position: relative;
+    top: 190px;
+    left: 360px;
+}
+.credit a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.h{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 260px;
+    left: 410px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+.wrapper {
+  width: 100vw;
+  text-align: center;
+  span {
+    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-color: #000;
+    font-size: 100px;
+    text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
+    transform: translate(0, 100%) rotate(4deg);
+    animation: jump 2s ease-in-out infinite;
+    display: inline-block;
+    font-family: "Titan One", cursive;
+    color: #fff;
+
+    @for $i from 1 through 7 {
+      &:nth-child(#{$i}) {
+        animation-delay: 120ms * $i;
+      }
+    }
+  }
+}
+@keyframes jump {
+  33% {
+    text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
+  }
+  50% {
+    transform: translate(0, 0) rotate(-4deg);
+    text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+  }
+  66.67% {
+    text-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+  }
+}
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-height: 200px) {
+  .wrapper {
+    transform: scale(0.3,0.3);
+  }
+}
+@media screen and (max-width: 576px) {
+  .wrapper {
+    span {
+      font-size: 50px;
+    }
+  }
+}
+</style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navbar">
+        <div class="lnavbar">
+            <h1 style="color: black;">Ramcharan's Portifolio</h1>
+        </div>
+        <div class="rnavbar">
+            <a class="a" href="index.html"><button type="button" class="btn btn-outline-dark">Home</button></a>
+            <a class="a" href="index1.html"><button type="button" class="btn btn-outline-dark">About</button></a>
+            <a class="a" href="index3.html"><button type="button" class="btn btn-outline-dark">Skills</button></a>
+            <a class="a" href="index5.html"><button type="button" class="btn btn-outline-dark">Contact</button></a>
+        </div>
+    </div>
+    <hr>
+    
+    <div class="container">
+        <h1 class="h">Ramcharan Nimmakayala</h1>
+        <h4 class="h" style="padding-left: 16px;"> Below are my Social Media Profiles</h4>
+        <div class="icons">
+        <ul class="social-icons">
+          <li><a target="_blank" href="https://www.instagram.com/jus_sanju_/?next=%2F"><i class="fa fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/ramcharan-nimmakayala/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/jus_sanju_/?next=%2F"><i class="fa fa-facebook"></i></a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
